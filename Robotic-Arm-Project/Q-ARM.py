@@ -27,7 +27,7 @@ def rotate_Qbase(color): #function to rotate arm, checking potentiometer values 
       time.sleep(1)
       current_position = new_position #this allows the while loop to continue
 
-#(Calvin)
+
 def drop_off(color, container_id): #function checks potentiometer value matches size of container and places it accordingly
   list_coordinate = [(-0.597, 0.217, 0.282),(0.022, -0.635, 0.282), (0.0, 0.635, 0.282), (-0.387, 0.141, 0.138), (0.014, -0.411, 0.138), (0.0, 0.412, 0.138)] # list of coordinates for the different containers
   if container_id > 3:
